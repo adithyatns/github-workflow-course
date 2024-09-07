@@ -9,5 +9,5 @@ jobs:
         run: echo "Hello workflow"
       - name: run multiline commands
         run: |
-          npn -v
+          npm -v
           gcc -v
