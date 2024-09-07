@@ -1,0 +1,12 @@
+name: first workflow
+on: [push]
+
+jobs:
+  run-shell-commands:
+  runs-on: ubuntu-latest
+    - name: echo a string
+      run: echo "Hello workflow"
+    - name: run multiline commands
+      run: |
+      npn -v
+      gcc -v
